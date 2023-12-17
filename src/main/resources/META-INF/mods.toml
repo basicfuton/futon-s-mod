@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/MinecraftForge/MinecraftForge/issues"
+showAsResourcePack=false
+
+[[mods]]
+  modId="futonsmod"
+  version="0.0.0"
+  displayName="futon's mod"
+  updateJSONURL="https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json"
+  displayURL="https://minecraftforge.net"
+  logoFile=""
+  credits=""
+  authors="basicfuton"
+  description='''A collection of random things'''
+  displayTest="MATCH_VERSION"
