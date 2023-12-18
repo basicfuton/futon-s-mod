@@ -1,5 +1,5 @@
 {
-    "parents": "item/generated",
+    "parent": "item/generated",
     "textures": {
         "layer0": "futonsmod:item/cat_item"
     }
