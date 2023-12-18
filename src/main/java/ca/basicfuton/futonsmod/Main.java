@@ -1,7 +1,6 @@
 package ca.basicfuton.futonsmod;
 
-import com.mojang.logging.LogUtils;
-
+//import com.mojang.logging.LogUtils;
 import ca.basicfuton.futonsmod.item.ModItems;
 //import net.minecraft.client.Minecraft;
 //import net.minecraft.core.registries.Registries;
@@ -29,12 +28,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 //import net.minecraftforge.registries.DeferredRegister;
 //import net.minecraftforge.registries.ForgeRegistries;
 //import net.minecraftforge.registries.RegistryObject;
-import org.slf4j.Logger;
+//import org.slf4j.Logger;
 
 @Mod(Main.MOD_ID)
 public class Main {
     public static final String MOD_ID = "futonsmod";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    //private static final Logger LOGGER = LogUtils.getLogger();
 
     public Main() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -53,6 +52,7 @@ public class Main {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CAT_ITEM);
+            event.accept(ModItems.SLEDGE_HAMMER);
         }
     }
 
